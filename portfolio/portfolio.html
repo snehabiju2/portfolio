@@ -1,0 +1,93 @@
+<head>
+  <title>About Sneha Biju</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Sneha Biju" />
+  <meta
+    name="description"
+    content="A personal webpage about Sneha Biju, showcasing her profile and interests."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="https://www.linkedin.com/in/snehabiju" target="_blank">
+    <img src="profile.jpg" alt="Sneha Biju" width="200px" />
+  </a>
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Sneha Biju, a Computer Science student with a passion for
+      backend development and database management. My strengths include
+      problem-solving and an eye for detail. I am constantly seeking
+      opportunities to grow.
+    </p>
+
+    <ul>
+      <li>Strengths: Backend development, SQL, Cloud Computing</li>
+      <li>Weaknesses: Perfectionism, Time management</li>
+    </ul>
+  </section>
+  <table border="1">
+    <tr>
+      <th>Serial Number</th>
+      <th>Items</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Travel to different countries</td>
+      <td>Not Completed</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Build a home</td>
+      <td>Not Completed</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Learn React</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Excel in my skills</td>
+      <td>Not Completed</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Build a Personal Website</td>
+      <td>Completed</td>
+    </tr>
+  </table>
+</body>
+<section>
+  <h2>My Favorite Media</h2>
+  <p>Here's a clip from one of my favorite movies:</p>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/WR7cc5t7tv8"
+    title="YouTube video player"
+    allowfullscreen
+  ></iframe>
+
+  <p>And here's an audio clip from my favorite song:</p>
+  <audio controls>
+    <source src="favorite_song.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</section>
+<script>
+  function welcomeMessage() {
+    alert("Hello, welcome to my page!");
+  }
+
+  document.querySelector("img").addEventListener("mouseover", function () {
+    document.body.style.backgroundColor = "#dcdcdc";
+  });
+
+  document.querySelector("img").addEventListener("mouseout", function () {
+    document.body.style.backgroundColor = "#f0f8ff";
+  });
+</script>
+
+<button onclick="welcomeMessage()">Click Me!</button>
